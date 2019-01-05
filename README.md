@@ -1,4 +1,3 @@
 # Server
 
-Smart Server
-test
+Smart Game Server
