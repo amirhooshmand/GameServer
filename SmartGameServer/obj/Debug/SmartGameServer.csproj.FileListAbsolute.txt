@@ -12,3 +12,7 @@ C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartGameServer\obj\Debug\Sma
 C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartGameServer\obj\Debug\SmartGameServer.csproj.CoreCompileInputs.cache
 C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartGameServer\obj\Debug\SmartGameServer.exe
 C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartGameServer\obj\Debug\SmartGameServer.pdb
+D:\Visual Studio\GameServer\SmartGameServer\obj\Debug\SmartGameServer.csprojAssemblyReference.cache
+D:\Visual Studio\GameServer\SmartGameServer\obj\Debug\SmartGameServer.csproj.CoreCompileInputs.cache
+D:\Visual Studio\GameServer\SmartGameServer\obj\Debug\SmartGameServer.exe
+D:\Visual Studio\GameServer\SmartGameServer\obj\Debug\SmartGameServer.pdb
