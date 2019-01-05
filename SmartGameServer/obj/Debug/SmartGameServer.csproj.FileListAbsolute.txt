@@ -16,3 +16,10 @@ D:\Visual Studio\GameServer\SmartGameServer\obj\Debug\SmartGameServer.csprojAsse
 D:\Visual Studio\GameServer\SmartGameServer\obj\Debug\SmartGameServer.csproj.CoreCompileInputs.cache
 D:\Visual Studio\GameServer\SmartGameServer\obj\Debug\SmartGameServer.exe
 D:\Visual Studio\GameServer\SmartGameServer\obj\Debug\SmartGameServer.pdb
+D:\Visual Studio\GameServer\SmartGameServer\bin\Debug\SmartGameServer.exe.config
+D:\Visual Studio\GameServer\SmartGameServer\bin\Debug\SmartGameServer.exe
+D:\Visual Studio\GameServer\SmartGameServer\bin\Debug\SmartGameServer.pdb
+D:\Visual Studio\GameServer\SmartGameServer\bin\Debug\Newtonsoft.Json.dll
+D:\Visual Studio\GameServer\SmartGameServer\bin\Debug\Newtonsoft.Json.pdb
+D:\Visual Studio\GameServer\SmartGameServer\bin\Debug\Newtonsoft.Json.xml
+D:\Visual Studio\GameServer\SmartGameServer\obj\Debug\SmartGameServer.csproj.CopyComplete

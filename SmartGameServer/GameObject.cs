@@ -1,23 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SmartGameServer
+﻿namespace SmartGameServer
 {
-    class GameObject
+    internal class GameObject
     {
-        public string Id { set; get; }
-        public string Name { set; get; }
-        public Vector3 Vector { set; get; }
-        public Rotation Rotation { get; set; }
-
-        public GameObject() { }
-
-        public override string ToString()
+        public GameObject()
         {
-            return "{ \"gameObject\": { \"id\": " + Id + ", \"name\": " + Name + ", \"positionX\": " + Vector.x + ", \"positionY\":" + Vector.y + ", \"positionZ\": " + Vector.z + ", \"rotationX\": " + Rotation.x + ", \"rotationY\":" + Rotation.y + ", \"rotationZ\": " + Rotation.z + " } }";
         }
+
+        public dynamic Id { get; set; }
+        public dynamic Name { get; set; }
+        public Rotation Rotation { get; set; }
+        public Vector3 Vector { get; set; }
     }
 }

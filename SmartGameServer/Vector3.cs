@@ -1,13 +1,16 @@
 ﻿namespace SmartGameServer
 {
-    public class Vector3
+    internal class Vector3
     {
-        public float x, y, z;
+        private float positionX;
+        private float positionY;
+        private float positionZ;
 
-        public Vector3() { }
-        public Vector3(float x, float y, float z)
+        public Vector3(float positionX, float positionY, float positionZ)
         {
-            this.x = x; this.y = y; this.z = z;
+            this.positionX = positionX;
+            this.positionY = positionY;
+            this.positionZ = positionZ;
         }
     }
 }

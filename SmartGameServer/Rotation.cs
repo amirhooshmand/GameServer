@@ -1,18 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SmartGameServer
+﻿namespace SmartGameServer
 {
-    class Rotation
+    internal class Rotation
     {
-        public float x, y, z;
+        private float rotationX;
+        private float rotationY;
+        private float rotationZ;
 
-        public Rotation() { }
-        public Rotation(float x, float y, float z) {
-            this.x = x; this.y = y; this.z = z;
+        public Rotation(float rotationX, float rotationY, float rotationZ)
+        {
+            this.rotationX = rotationX;
+            this.rotationY = rotationY;
+            this.rotationZ = rotationZ;
         }
     }
 }

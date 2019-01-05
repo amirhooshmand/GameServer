@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 
 namespace SmartGameServer
-{
+{ 
     class Room
     {
         public Client[] clients = new Client[Constants.ROOME_PAYER];
@@ -73,4 +73,5 @@ namespace SmartGameServer
         }
 
     }
+    
 }
