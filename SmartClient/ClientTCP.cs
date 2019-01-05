@@ -37,7 +37,7 @@ namespace SmartClient
                 currentRead = totalRead = clientSocket.Receive(sizeInfo);
                 if (totalRead <= 0)
                 {
-                    Console.WriteLine("You are not connect to server.");
+                    Console.WriteLine("You are not connect to server...");
                 }
                 else
                 {
@@ -83,6 +83,23 @@ namespace SmartClient
             PacketBuffer buffer = new PacketBuffer();
             buffer.WriteInteger((int)ClientPackets.cThankYou);
             buffer.WriteString("Than bruv, for letting me to connect ya server");
+            SendData(buffer.ToArray());
+            buffer.Dispose();
+        }
+
+        public static void SendGameobject()
+        {
+            PacketBuffer buffer = new PacketBuffer();
+            buffer.WriteInteger((int)ClientPackets.cShareObject);
+            buffer.WriteString("{ \"roomId\": 0, \"gameObject\": { \"id\": \"46546\", \"name\": \"N\", \"positionX\": 12.2, \"positionY\": 12.2, \"positionZ\": 12.2, \"rotationX\": 12.2, \"rotationY\": 12.2, \"rotationZ\": 12.2 } }");
+            SendData(buffer.ToArray());
+            buffer.Dispose();
+        }
+
+        public static void JoinToRoom()
+        {
+            PacketBuffer buffer = new PacketBuffer();
+            buffer.WriteInteger((int)ClientPackets.cJoinRoom);
             SendData(buffer.ToArray());
             buffer.Dispose();
         }

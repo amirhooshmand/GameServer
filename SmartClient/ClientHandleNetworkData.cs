@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Bindings;
+using System;
 using System.Collections.Generic;
-using Bindings;
 
 namespace SmartClient
 {
@@ -9,12 +9,13 @@ namespace SmartClient
         private delegate void Packet_(byte[] data);
         private static Dictionary<int, Packet_> Packets;
 
-        public static void InitiakizeNetworkPackages()
+        public static void InitializeNetworkPackages()
         {
-            Console.WriteLine("Initiakize Network Packages...");
+            Console.WriteLine("Initialize Network Packages...");
             Packets = new Dictionary<int, Packet_>
             {
-                { (int)ServerPackets.sConnectionOK, HandleConnectionOK }
+                { (int)ServerPackets.sConnectionOK, HandleConnectionOK },
+                { (int)ServerPackets.sData, HandleData }
             };
         }
 
@@ -25,7 +26,7 @@ namespace SmartClient
             buffer.WriteBytes(data);
             packetNum = buffer.ReadInteger();
             buffer.Dispose();
-            if(Packets.TryGetValue(packetNum, out Packet_ Packet))
+            if (Packets.TryGetValue(packetNum, out Packet_ Packet))
             {
                 Packet.Invoke(data);
             }
@@ -40,9 +41,26 @@ namespace SmartClient
             buffer.Dispose();
 
             //Add your code you want to execute here
-            Console.WriteLine(msg);
+            DateTime date = DateTime.Now;
+            Console.WriteLine(date.TimeOfDay + " | " + msg);
 
-            ClientTCP.ThankYouServer();
+            ClientTCP.JoinToRoom();
+            //ClientTCP.SendGameobject();
         }
+        private static void HandleData(byte[] data)
+        {
+            PacketBuffer buffer = new PacketBuffer();
+            buffer.WriteBytes(data);
+            buffer.ReadInteger();
+            string msg = buffer.ReadString();
+            buffer.Dispose();
+
+            //Add your code you want to execute here
+            DateTime date = DateTime.Now;
+            Console.WriteLine(date.TimeOfDay + " | " + msg);
+
+            //ClientTCP.ThankYouServer();
+        }
+
     }
 }

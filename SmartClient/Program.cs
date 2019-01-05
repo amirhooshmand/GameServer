@@ -6,7 +6,7 @@ namespace SmartClient
     {
         static void Main(string[] args)
         {
-            ClientHandleNetworkData.InitiakizeNetworkPackages();
+            ClientHandleNetworkData.InitializeNetworkPackages();
             ClientTCP.ConnectToServer();
             Console.ReadKey();
         }

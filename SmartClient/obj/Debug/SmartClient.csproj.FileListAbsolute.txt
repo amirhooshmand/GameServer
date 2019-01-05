@@ -12,3 +12,10 @@ C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartClient\obj\Debug\SmartCl
 C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartClient\obj\Debug\SmartClient.csproj.CoreCompileInputs.cache
 C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartClient\obj\Debug\SmartClient.exe
 C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartClient\obj\Debug\SmartClient.pdb
+D:\Visual Studio\GameServer\SmartClient\obj\Debug\SmartClient.csprojAssemblyReference.cache
+D:\Visual Studio\GameServer\SmartClient\obj\Debug\SmartClient.csproj.CoreCompileInputs.cache
+D:\Visual Studio\GameServer\SmartClient\obj\Debug\SmartClient.exe
+D:\Visual Studio\GameServer\SmartClient\obj\Debug\SmartClient.pdb
+D:\Visual Studio\GameServer\SmartClient\bin\Debug\SmartClient.exe.config
+D:\Visual Studio\GameServer\SmartClient\bin\Debug\SmartClient.exe
+D:\Visual Studio\GameServer\SmartClient\bin\Debug\SmartClient.pdb
