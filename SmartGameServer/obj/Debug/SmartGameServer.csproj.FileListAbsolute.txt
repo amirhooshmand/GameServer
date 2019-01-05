@@ -1,0 +1,14 @@
+D:\Visual Studio\Server\SmartGameServer\obj\Debug\SmartGameServer.csprojAssemblyReference.cache
+D:\Visual Studio\Server\SmartGameServer\obj\Debug\SmartGameServer.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Server\SmartGameServer\bin\Debug\SmartGameServer.exe.config
+D:\Visual Studio\Server\SmartGameServer\bin\Debug\SmartGameServer.exe
+D:\Visual Studio\Server\SmartGameServer\bin\Debug\SmartGameServer.pdb
+D:\Visual Studio\Server\SmartGameServer\obj\Debug\SmartGameServer.exe
+D:\Visual Studio\Server\SmartGameServer\obj\Debug\SmartGameServer.pdb
+C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartGameServer\bin\Debug\SmartGameServer.exe.config
+C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartGameServer\bin\Debug\SmartGameServer.exe
+C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartGameServer\bin\Debug\SmartGameServer.pdb
+C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartGameServer\obj\Debug\SmartGameServer.csprojAssemblyReference.cache
+C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartGameServer\obj\Debug\SmartGameServer.csproj.CoreCompileInputs.cache
+C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartGameServer\obj\Debug\SmartGameServer.exe
+C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartGameServer\obj\Debug\SmartGameServer.pdb

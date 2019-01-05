@@ -1,0 +1,14 @@
+D:\Visual Studio\Server\SmartClient\bin\Debug\SmartClient.exe.config
+D:\Visual Studio\Server\SmartClient\bin\Debug\SmartClient.exe
+D:\Visual Studio\Server\SmartClient\bin\Debug\SmartClient.pdb
+D:\Visual Studio\Server\SmartClient\obj\Debug\SmartClient.csprojAssemblyReference.cache
+D:\Visual Studio\Server\SmartClient\obj\Debug\SmartClient.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Server\SmartClient\obj\Debug\SmartClient.exe
+D:\Visual Studio\Server\SmartClient\obj\Debug\SmartClient.pdb
+C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartClient\bin\Debug\SmartClient.exe.config
+C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartClient\bin\Debug\SmartClient.exe
+C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartClient\bin\Debug\SmartClient.pdb
+C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartClient\obj\Debug\SmartClient.csprojAssemblyReference.cache
+C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartClient\obj\Debug\SmartClient.csproj.CoreCompileInputs.cache
+C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartClient\obj\Debug\SmartClient.exe
+C:\Users\Smart\Documents\Visual Studio 2017\Server\SmartClient\obj\Debug\SmartClient.pdb
