@@ -1,16 +1,12 @@
 ﻿namespace SmartGameServer
 {
-    internal class Rotation
+    class Rotation
     {
-        private float rotationX;
-        private float rotationY;
-        private float rotationZ;
+        public float x, y, z;
 
-        public Rotation(float rotationX, float rotationY, float rotationZ)
-        {
-            this.rotationX = rotationX;
-            this.rotationY = rotationY;
-            this.rotationZ = rotationZ;
+        public Rotation() { }
+        public Rotation(float x, float y, float z) {
+            this.x = x; this.y = y; this.z = z;
         }
     }
 }

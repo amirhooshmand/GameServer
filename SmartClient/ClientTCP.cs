@@ -91,7 +91,7 @@ namespace SmartClient
         {
             PacketBuffer buffer = new PacketBuffer();
             buffer.WriteInteger((int)ClientPackets.cShareObject);
-            buffer.WriteString("{ \"roomId\": 0, \"gameObject\": { \"id\": \"46546\", \"name\": \"N\", \"positionX\": 12.2, \"positionY\": 12.2, \"positionZ\": 12.2, \"rotationX\": 12.2, \"rotationY\": 12.2, \"rotationZ\": 12.2 } }");
+            buffer.WriteString("{ \"roomId\": 0, \"gameObject\": { \"id\": \"46546\", \"name\": \"N\", \"positionX\": 12.2f, \"positionY\": 12.2f, \"positionZ\": 12., \"rotationX\": 12.2, \"rotationY\": 12.2, \"rotationZ\": 12.2 } }");
             SendData(buffer.ToArray());
             buffer.Dispose();
         }

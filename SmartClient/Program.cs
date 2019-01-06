@@ -8,7 +8,21 @@ namespace SmartClient
         {
             ClientHandleNetworkData.InitializeNetworkPackages();
             ClientTCP.ConnectToServer();
-            Console.ReadKey();
+
+            A:
+
+            ConsoleKeyInfo key = Console.ReadKey();
+
+            if (key.KeyChar == 'g')
+            {
+                ClientTCP.SendGameobject();
+            }
+            else if (key.KeyChar == 'j')
+            {
+                ClientTCP.JoinToRoom();
+            }
+
+            goto A;
         }
     }
 }
