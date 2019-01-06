@@ -76,7 +76,6 @@ namespace SmartGameServer
             Rotation rotation = new Rotation((float)stuff.gameObject.rotationX, (float)stuff.gameObject.rotationY, (float)stuff.gameObject.rotationZ);
 
             GameObject go = new GameObject() { Id = stuff.gameObject.id, Name = stuff.gameObject.name, Rotation = rotation, Vector = position };
-            Console.WriteLine();
             ServerTCP.rooms[(int)stuff.roomId].ShareGameObject(ServerTCP.clients[index], go);
 
         }
